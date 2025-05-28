@@ -210,7 +210,7 @@ try:
     print(df.shape)
 except FileNotFoundError:
     print("Error: 'amazon.csv' not found. Please ensure the file exists in the current directory.")
-except pd.errors.ParserError:
+except pd. errors.ParserError:
     print("Error: Could not parse 'amazon.csv'. Please check the file format.")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
@@ -218,10 +218,10 @@ except Exception as e:
 """## Data exploration
 
 ### Subtask:
-Explore the loaded Amazon product data to understand its characteristics.
+You can explore the loaded Amazon product data to understand its characteristics.
 
 **Reasoning**:
-Examine data types, check for missing values, calculate descriptive statistics, explore unique values in categorical columns, determine the shape, and analyze correlations between numerical features to understand the characteristics of the dataset as per the instructions.
+Examine data types, check for missing values, calculate descriptive statistics, explore unique values in categorical columns, determine the shape, and analyze correlations between numerical features to understand the characteristics of the dataset as instructed.
 """
 
 # 1. Examine data types
